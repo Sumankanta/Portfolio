@@ -1,0 +1,84 @@
+@media (min-width: 1200px) {
+  .header ~ main,
+  .header ~ #footer {
+    margin-left: 300px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header {
+    left: -100%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+/* Center nav links on large screens */
+@media (min-width: 992px) {
+  .navbar-nav-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mobile-social {
+    display: none !important;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 991.98px) {
+  .desktop-social {
+    display: none !important;
+  }
+
+  .mobile-social {
+    display: flex !important;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+
+  .navbar-collapse {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# Portfolio Section
+--------------------------------------------------------------*/
+@media (max-width: 575px) {
+  .portfolio .portfolio-filters li {
+    font-size: 14px;
+    margin: 0 5px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+@media (max-width: 575px) {
+  .contact .info-wrap {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact   {
+    padding: 20px;
+  }
+}
